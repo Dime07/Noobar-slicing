@@ -21,6 +21,7 @@ function Hero(){
                         <FontAwesomeIcon icon={faHeart} className="heart-icon"/>
                     </div>
                 </div>
+                
 
             </div>
         </div>

@@ -1,4 +1,5 @@
 import "../CSS/Component.css";
+import {Link } from "react-router-dom";
 
 function Navbar(){
     //data
@@ -8,9 +9,9 @@ function Navbar(){
             <div className="left-side">
                 <p>Noobar</p>
                 <ul>
-                    <li><a href="/">All</a></li>
-                    <li><a href="/">Movies</a></li>
-                    <li><a href="/">Tv Series</a></li>
+                    <li><Link to="/">All</Link></li>
+                    <li><Link to="/movies">Movies</Link></li>
+                    <li><Link to="/series">Tv Series</Link></li>
                 </ul>
             </div>
             <div className="right-side">

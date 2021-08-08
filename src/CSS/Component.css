@@ -62,6 +62,7 @@
 }
 
 .btn{
+    font-weight: 500;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
     color: white;
@@ -118,3 +119,76 @@
 .heart-icon{
     color: #ff7799;
 }
+
+/* CARD SECTION */
+.card-section{
+    background-color: #201F1F;
+    margin-bottom: 40px;
+    
+}
+
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.top .dropdown select{
+    background-color: #424040;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.top p{
+    color: white;
+    font-weight: 500;
+}
+
+.Card{
+    margin: 20px 40px 0px 40px;
+    color: white;
+}
+
+.poster{
+    width: 253px;
+    height: 401px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.categories-card{
+    font-size: 12px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.bottom{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #161616;
+    color: white;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+

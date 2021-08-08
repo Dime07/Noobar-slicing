@@ -5,3 +5,36 @@
     font-family: 'Poppins', sans-serif;;
 }
 
+.quotes{
+display: flex;
+justify-content: center;
+margin-top: 80px;
+
+font-weight: 600;
+color: white;
+font-size: 32px;
+}
+
+.quotes p{
+width: 700px;
+margin-bottom: 100px;
+text-align: center;
+}
+
+.quotes::before{
+content: '"';
+font-size: 70px;
+color: #04487D;
+}
+
+.quotes::after{
+content: '"';
+font-size: 70px;
+color: #04487D;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
